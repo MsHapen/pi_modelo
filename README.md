@@ -56,51 +56,23 @@ empresa, como dos status dos serviços.
 
 **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
 
-![Ciclo da Venda](docs/ciclo_da_venda.webp "Ciclo da Venda")
+![Wonder_Bakery](docs/Wonder_Bakery.png "Wonder Bakery")
 
-Descrevem o que acontece atualmente na empresa em um contexto global,
-abordando o funcionamento da empresa como um todo, não apenas os “problemas” que lá ocorrem.
 
-Sabendo disso, seu papel é **detalhar o funcionamento da empresa escolhida na
-atualidade, ou seja, antes de seu novo software**, usando como base a situação que passamos, mas aprofundando os detalhes de como as coisas acontecem.
 
--   Pesquise sobre empresas do ramo escolhido
-    para entender como funcionam;
--   Aproveite seus conhecimentos previamente adquiridos na área da empresa que escolheu, se houver;
--   Simule uma situação real. Lembre-se que são
-    propostas com empresas fictícias, sendo assim,
-    você terá que tomar certas decisões sobre como
-    a empresa funciona em relação às coisas que
-    não estão definidas no documento base (por
-    exemplo, no caso da padaria, dizemos que seu
-    Genival contratou mais funcionários, mas saber
-    quantos e o que fazem pode ser relevante para o software), então tente “visualizar” a
-    empresa funcionando, como se você estivesse lá acompanhando o dia-a-dia;
+Padaria e Confeitaria Wonder Bakery
 
-Seguindo essas dicas, você deve ser capaz de descrever o dia-a-dia da empresa selecionada. E para ajudar na organização do texto, indicamos uma abordagem em 3 etapas:
+- A Wonder Bakery é uma padaria e confeitaria temática do universo de Pokemon, ela tem seu foco em deixar suas receitas únicas e atrativas prezando não só o sabor mas também a apresentação. Ela existe desde 2013 e vem se aperfeiçoando até hoje, seu dono é Satoshi Tajiri e possui 9 funcionários, 4 Padeiros, 2 caixas, 3 atendentes e 3 entregadores.
 
--   **Introdução**: comece com um parágrafo apresentando a empresa (nome, o que faz, tempo de existência, o dono, funcionários,
-    etc);
--   **Situação-problema**: Aborde em detalhes como a empresa funciona, procurando seguir uma
-    ordem lógica dos acontecimentos e organizando parágrafos diferentes para cada coisa
-    diferente que for explicar (como faria em uma redação);
--   **Conclusão**: tenha um parágrafo de conclusão focando nos problemas que você notou dentro da situação problema analisada e aponte brevemente como um software poderia
-    ajudar a resolvê-los.
+- Atualmente a padaria funciona de forma presencial, seus pedidos podem ser feitos no  caixa ou por meio de algum atendente no local, mas recentemente isso se tornou um problema pois mesmo as vendas estando ótimas eles se sentem limitados em questão de área de vendas.
+- Recentemente a equipe sentiu a necessidade de uma plataforma para vendas online visando ampliar suas vendas juntamente com a criação de filiais. Para isso requisitou um site que possibilitasse aos clientes fazerem pedidos de produtos da padaria por meio de um carrinho e então recebessem em suas casas o pedido por meio dos entregadores
+- Também foi pontuado a importância do endereço do cliente e o interesse em facilitar o trabalho do cliente de alguma forma na hora da compra.
+- Foi pedido que o site tivesse grande destaque na aparência dos confeitos pois essa é uma importante parte do negócio, solicitando que ficassem à vista e com “imagens grandes”.
+
+- Foi notado que eles precisam de uma plataforma simples para vendas online, com necessidade da criação de um cadastro para facilitar na hora da compra, permitindo registrar seus meios de pagamento, endereço, seu nome e um código para receber a entrega. Tendo um front end amigável passando a imagem da Wonder.
+
 
 # Descrição da proposta
 
-Após entender o problema, proponha uma solução que será útil nos aspectos de dificuldade encontrados. Assim, aqui você deverá **explicar de maneira resumida, e preferencialmente mais textual, como o software funcionará**. Pense nesse texto como uma **introdução ao seu cliente** do que você pretende fazer por ele, para que ele confirme se realmente está dentro do
-desejado e permita sua continuidade.
 
-**Alguns pontos importantes a se destacar são:**
-
--   **Qual o foco de ação do software** relacionado com os problemas levantados na análise da situação-problema. O que realmente o software vai fazer. Por exemplo, o foco de ação do Gmail é permitir o envio e recebimento de e-mails.
--   **Os níveis de usuário do sistema**. Somente o gestor tem acesso? E os funcionários? Talvez seja para ambos, ou para funcionários de cargos
-    diferentes, etc.
--   **O que poderá ser feito no software**.Apenas o principal, sem pensar em
-    telas ou detalhes específicos, pois isso será feito em outro momento.
-    -   **Se houver mais de um nível de usuário**, ressaltar as diferenças entre
-        eles na descrição da proposta.
-
-Tenha em mente que essa é uma etapa relativamente breve. Não é necessário um texto gigantesco, apenas dar uma noção do funcionamento do sistema. Mais adiante
-precisaremos ser bem detalhistas, todavia agora a intenção é apenas fazer algo que permita ao cliente nos dizer se estamos no caminho certo.
+* Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, priorizando a parte visual. Seguiremos com um sistema de cadastro para registrar dados do usuário como endereço, formas de pagamento, etc. O sistema será focado nas vendas e por isso precisará transmitir os pedidos para os confeiteiros após serem finalizados, também faremos um sistema de pesquisa para facilitar a busca pelos produtos e um para marcar os que estão indisponíveis e registrar promoções e cupons. 
