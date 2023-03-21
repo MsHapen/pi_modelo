@@ -56,7 +56,7 @@ empresa, como dos status dos serviços.
 
 **Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
 
-![Wonder_Bakery](docs/Wonder_Bakery.png "Wonder Bakery")
+![Wonder_Bakery](docs/Wonder-Bakery.webp "Wonder Bakery")
 
 
 
