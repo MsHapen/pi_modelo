@@ -10,57 +10,9 @@ Links do projeto:
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
-# Como usar esse modelo para o Projeto Integrador
-
-1. Faça um fork desse repositório para a sua conta do GitHub.
-2. Clone o repositório para o seu computador.
-3. Abra o arquivo README.md no seu editor de texto favorito (recomendamos o [Visual Studio Code](https://code.visualstudio.com/)).
-4. Tenha instalada a extensão [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) no seu editor de texto.
-5. Edite o arquivo README.md com as informações do seu projeto.
-
-# Desenvolvimento
-
--   As equipes serão avaliadas por cada etapa da documentação e entregas realizadas.
--   Cada equipe deverá escolher um sistema para o desenvolvimento das atividades, a partir dos modelos apresentados.
-
-# Modelos de Sistemas
-
-**Nessa parte a equipe deve escolher um dos modelos de sistemas para desenvolver o projeto. Ao escolher, escreva uma breve descrição do sistema e o motivo da escolha e pode apagar os outros modelos.**
-
-## 1- Ponto de Vendas (PDV)
-
-**Gerenciamento de vendas para uma padaria**
-
-O nosso cliente, Sr. Genival, tem uma padaria de bairro chamada padaria Pão Genial e, devido a qualidade de seus produtos, ela está crescendo rapidamente. Recentemente, ele contratou mais funcionários para atendimento, caixa, panificação, etc.
-Assim, atualmente, ele consegue concentrar seus esforços para melhorar a gestão da padaria. Para isso, ele quer instalar um sistema de controle de vendas que permita ao caixa lançar as vendas realizadas. Como sua intenção
-é melhorar a gestão do negócio, é muito importante que ele consiga ter
-relatórios, como por exemplo, de vendas.
-
-## 2- Empréstimo
-
-**Gerenciamento de uma biblioteca**
-
-Uma ONG, chamada Sala Arco Íris, ajuda crianças de baixa renda em sua educação básica. Atualmente, recebeu uma doação de mais de 1000 livros e está montando a sua biblioteca. Eles querem emprestar os livros para as crianças e os pais das crianças. Apesar de
-terem um computador e as estantes necessárias à disposição nessa nova biblioteca, não possuem verba suficiente para um leitor de impressão digital ou para produção
-de carteirinhas para todas as crianças. Para isso, eles precisam de um sistema que gerencie todo o acervo, empréstimos, livros disponíveis, etc. mas que isso ocorra de maneira simples e sem necessidade de novos gastos. Também é importante que haja relatórios, permitindo o controle dos empréstimos e dos livros disponíveis no acervo.
-
-## 3- Ordem de Serviço (O.S.)
-
-**Manutenção de computadores**
-
-Sr. Sálvio, nosso cliente, fez um curso de manutenção de celulares e smartphones e decidiu abrir um negócio, onde ele é responsável pelos consertos e sua esposa Marília realiza os atendimentos aos clientes. Com sua visão empreendedora, ele sentiu a necessidade de um software que auxilie
-sua esposa nas tarefas diárias. Para isso, ele deseja um sistema que gerencie os clientes, orçamentos, serviços e retirada dos equipamentos. Sendo um negócio pequeno, é muito importante que ele consiga ter relatórios que lhe ajudem na gestão da
-empresa, como dos status dos serviços.
-
-# Situação Problema
-
-**Nessa parte a equipe deve descrever a situação problema que será resolvida pelo sistema. O texto abaixo descreve o que essa etapa deve conter e pode ser apagado depois.**
+# Padaria e Confeitaria Wonder Bakery
 
 ![Wonder_Bakery](docs/Wonder-Bakery.webp "Wonder Bakery")
-
-
-
-Padaria e Confeitaria Wonder Bakery
 
 - A Wonder Bakery é uma padaria e confeitaria temática do universo de Pokemon, ela tem seu foco em deixar suas receitas únicas e atrativas prezando não só o sabor mas também a apresentação. Ela existe desde 2013 e vem se aperfeiçoando até hoje, seu dono é Satoshi Tajiri e possui 9 funcionários, 4 Padeiros, 2 caixas, 3 atendentes e 3 entregadores.
 
@@ -74,5 +26,74 @@ Padaria e Confeitaria Wonder Bakery
 
 # Descrição da proposta
 
-
 * Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, priorizando a parte visual. Seguiremos com um sistema de cadastro para registrar dados do usuário como endereço, formas de pagamento, etc. O sistema será focado nas vendas e por isso precisará transmitir os pedidos para os confeiteiros após serem finalizados, também faremos um sistema de pesquisa para facilitar a busca pelos produtos e um para marcar os que estão indisponíveis e registrar promoções e cupons. 
+
+# Regras de Negócio 
+
+- **RN01** – *Criação Comanda:* Para iniciar um atendimento no balcão, é necessário primeiro abrir uma nova comanda.
+
+- **RN02** – *Inserir Produtos Comanda:* Para inserir um produto na comanda, é necessário que o produto esteja cadastrado no sistema e que a quantia comprada seja acima de zero.
+- **RN03** – *Relatório de Fluxo de Caixa:* O relatório de fluxo de caixa será permitido somente para o administrador, fornecendo data, hora e produtos comprados.
+- **RN04** – *Estoque:* O Sistema deve manter a entrada e saída de itens do estoque com data e quantidade registrando um relatório de fluxo para o administrador.
+- **RN05** – *Produtos:* O sistema deve manter o registro dos produtos em estoque.
+- **RN06** – *Compra:* O sistema deve registrar cada venda efetuada 
+
+
+# Requisito Funcional
+
+**ENTRADA**
+- **R.F.01 - Registro de Usuário:** O sistema deve manter os usuários registrados e seus devidos níveis após o primeiro cadastro deles, usando seu nome de usuário e senha.
+Dados necessários:
+Nível de Usuário:
+
+- **R.F.02 - Venda de Produtos:** Todos os produtos vendidos devem estar devidamente registrados no estoque.
+Dados necessários:
+Nível de Usuário:
+
+- **R.F.03 - Calculo de Vendas:** O sistema deve calcular o valor dos itens adicionados pelo usuário na venda.
+Dados necessários:
+Nível de Usuário:
+
+
+**PROCESSOS**
+- **R.F.04 - Autentificação de Usuário:** O sistema deve ser capaz de autentificar o usuário que o está acessando com base no Registro de Usuário para checar seu nível e sua autenticidade.
+Dados necessários:
+Nível de Usuário:
+
+- **R.F.05 - Reposição:** Se os produtos do estoque estiverem em baixa quantidade (20) deve ser enviado um aviso de reposição pelo sistema.
+Dados necessários:
+Nível de Usuário:
+
+- **R.F.06 - Gerenciamento de Venda:** Toda compra feita no caixa deve emitir uma nota e só poderá ser efetuada mediante a confirmação do pagamento.
+Dados necessários:
+Nível de Usuário:
+
+
+**SAÍDA**
+- **R.F.07 - PlaceHolder:** aaaaa 
+Dados necessários:
+Nível de Usuário:
+
+- **R.F.08 - PlaceHOlder:** aaaaa 
+Dados necessários:
+Nível de Usuário:
+
+
+
+# Requisitos Não Funcionais
+
+- **N.F.R.01 - Manutenção:** O sistema deve receber uma manutenção sempre que necessário.
+
+- **N.F.R.02 - Portabilidade:** O sistema deve ser capaz de rodar nos navegadores Chrome, Opera e Microsoft Edge.
+
+- **N.F.R.03 - Compatibilidade:** O sistema deve ser compativel com Linux e Windowns.
+
+- **N.F.R.04 - Banco de Dados:** O banco de dados do sistema deverá ser feito em MySQL ou PostgresSQL.
+
+- **N.F.R.05 - Atuação:** O sistema deve ser capaz de lidar com ao menos 10 usuários simultaneos.
+
+- **N.F.R.06 - Conexão:** O sistema não deve necessitar de conexão com a Internet.
+
+- **N.F.R.07 - Segurança:** O sistema deve possuir uma forma de autentificar o usuário.
+
+- **N.F.R.08 - Disponibilidade:** O sistema deve funcionar durante o periodo de funcionamento da padaria.
