@@ -2,13 +2,13 @@
 
 Um modelo para o desenvolvimento do Projeto Integrador do Curso de Técnico em Desenvolvimento de Sistemas para a Internet Integrado ao Ensino Médio do IFC - Campus Araquari.
 
-Equipe: ???
+Equipe: [João Otávio Bento](https://github.com/MsHapen) e [Davy Moreira Sebold](https://github.com/Rascro)
 
 Professores: [Marco André Mendes](github.com/marcoandre) e [Alann Perini](https://github.com/AlannKPerini).
 
 Links do projeto:
 
--   [Documentação (esse documento)](github.com/marcoandre/pi-modelo)
+-   [Documentação (esse documento)](https://github.com/MsHapen/pi_modelo.git)
 -   [Backend](github.com/marcoandre/pi-backend)
 -   [Frontend](github.com/marcoandre/pi-frontend)
 
