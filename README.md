@@ -43,7 +43,7 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
     - **Dados necessários:** Nome, Senha, CPF e Nível de Usuário.
     - **Nível de Usuário:** Gerente
 - **R.F.02 - Registro de Produtos:** Todos os produtos vendidos devem estar devidamente registrados no estoque.
-    - **Dados necessários:** Nome do Produto, Código do Produto, Valor e Quantidade.
+    - **Dados necessários:** Nome do Produto, Categoria, Código do Produto, Valor e Quantidade.
     - **Nível de Usuário:** Gerente.
 
 **PROCESSOS**
