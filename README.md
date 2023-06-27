@@ -48,29 +48,29 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
 
 **PROCESSOS**
 
-- **R.F.04 - Autenticação de Usuário:** O sistema deve ser capaz de autentificar o usuário que o está acessando com base no Registro de Usuário para checar seu nível e sua autenticidade.
+- **R.F.03 - Autenticação de Usuário:** O sistema deve ser capaz de autentificar o usuário que o está acessando com base no Registro de Usuário para checar seu nível e sua autenticidade.
     - **Dados necessários:** Nome de Usuário, CPF e Nível de Usuário.
     - **Nível de Usuário:** Gerente
-- **R.F.06 - Emissão de Comandas:** Após a confirmação de cada pedido, uma comanda deve ser gerada, podendo ser marcada como finalizada quando o pedido for entregue.
+- **R.F.04 - Emissão de Comandas:** Após a confirmação de cada pedido, uma comanda deve ser gerada, podendo ser marcada como finalizada quando o pedido for entregue.
     - **Dados necessários:** Nome do Produto, Quantidade, Horário do Pedido e validação.
     - **Nível de Usuário:** Padeiro, Gerente.
-- **R.F.03 - Cálculo de Vendas:** O sistema deve calcular o valor dos itens adicionados pelo usuário na venda.
+- **R.F.05 - Cálculo de Vendas:** O sistema deve calcular o valor dos itens adicionados pelo usuário na venda.
     - **Dados necessários:** Usuário, Código do Produto, Valor.
     - **Nível de Usuário:** Caixa, Genrente.
 - **R.F.06 - Gerenciamento de Venda:** Toda compra feita no caixa deve emitir uma nota e só poderá ser efetuada mediante a confirmação do pagamento.
     - **Dados necessários:** Nome do Produto, Código do produto, Valor, Quantidade Comprada
     - **Nível de Usuário:** Caixa, Gerente
-- **R.F.05 - Reposição:** Se os produtos do estoque estiverem em baixa quantidade (20) deve ser enviado um aviso de reposição pelo sistema.
+- **R.F.07 - Reposição:** Se os produtos do estoque estiverem em baixa quantidade (20) deve ser enviado um aviso de reposição pelo sistema.
     - **Dados necessários:** Código do Produto, Quantidade.
     - **Nível de Usuário:** Gerente
 
 **SAÍDA**
 
-- **R.F.07 - Relatório de Vendas da semana:** Toda semana deve ser emitido um relatório com o valor das vendas da semana e os produtos mais vendidos.
+- **R.F.08 - Relatório de Vendas da semana:** Toda semana deve ser emitido um relatório com o valor das vendas da semana e os produtos mais vendidos.
     - **Dados necessários:** Período (Data Inicial e Final).
     - **Nível de Usuário:** Gerente.
 
-- **R.F.08 - Relatório de Estoque:** Deve ser emitido um relatório diariamente listando os produtos disponíveis no estoque e sua quantidade. 
+- **R.F.09 - Relatório de Estoque:** Deve ser emitido um relatório diariamente listando os produtos disponíveis no estoque e sua quantidade. 
     - **Dados necessários:** Período (Data Inicial e Final).
     - **Nível de Usuário:** Gerente.
 
