@@ -53,10 +53,10 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
     - **Nível de Usuário:** Gerente
 - **R.F.04 - Emissão de Comandas:** Após a confirmação de cada pedido, uma comanda deve ser gerada, podendo ser marcada como finalizada quando o pedido for entregue.
     - **Dados necessários:** Nome do Produto, Quantidade, Horário do Pedido e validação.
-    - **Nível de Usuário:** Padeiro, Gerente.
+    - **Nível de Usuário:** Atendente, Gerente.
 - **R.F.05 - Cálculo de Vendas:** O sistema deve calcular o valor dos itens adicionados pelo usuário na venda.
     - **Dados necessários:** Usuário, Código do Produto, Valor.
-    - **Nível de Usuário:** Caixa, Genrente.
+    - **Nível de Usuário:** Caixa, Gerente.
 - **R.F.06 - Gerenciamento de Venda:** Toda compra feita no caixa deve emitir uma nota e só poderá ser efetuada mediante a confirmação do pagamento.
     - **Dados necessários:** Nome do Produto, Código do produto, Valor, Quantidade Comprada
     - **Nível de Usuário:** Caixa, Gerente
