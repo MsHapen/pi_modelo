@@ -90,6 +90,8 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
 
 - **N.F.R.08 - Disponibilidade:** O sistema deve funcionar durante o periodo de funcionamento da padaria.
 
+# Objetivos
+
 - **- VUE:**
  Com o Vue nós visamos efetuar uma plataforma de administração para os funcionarios do estabelecimento. Telas como a de Comandas, Relatórios, estoque e telas de registro de funcionarios com Login e Cadastro.
 - **- NATIVE:**
