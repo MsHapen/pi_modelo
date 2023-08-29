@@ -89,3 +89,9 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
 - **N.F.R.07 - Segurança:** O sistema deve possuir uma forma de autenticar o usuário, utilizando criptografia de senha md5. Além disso o sistema deve possuir um firewall de inspeção de dados
 
 - **N.F.R.08 - Disponibilidade:** O sistema deve funcionar durante o periodo de funcionamento da padaria.
+
+- **- VUE:**
+ Com o Vue nós visamos efetuar uma plataforma de administração para os funcionarios do estabelecimento. Telas como a de Comandas, Relatórios, estoque e telas de registro de funcionarios com Login e Cadastro.
+- **- NATIVE:**
+ Com o React Native buscamos facilitar o atendimento ao cliente, possibilitando uma espécie de autoatendimento com uma tela principal onde se pode escolher o que deseja pedir, uma tela de carrinho onde é adicionado o que foi pedido e uma funcionalidade que envia essas informações para a tela de Comandas do funcionario (Vue).
+
