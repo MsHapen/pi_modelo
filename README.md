@@ -90,6 +90,9 @@ Visamos fazer um sistema simples para quem maneja e atrativo para quem usa, prio
 
 - **N.F.R.08 - Disponibilidade:** O sistema deve funcionar durante o periodo de funcionamento da padaria.
 
+# Diagrama
+![Wonder_Bakery](https://media.discordapp.net/attachments/1148584035732435017/1148584137284927559/image.png?width=487&height=549 "Wonder Bakery")
+
 # Objetivos
 
 - **- VUE:**
